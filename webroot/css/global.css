@@ -1,0 +1,308 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.paginate
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ul-paginate
+{
+    display: flex;
+}
+
+.ul-paginate li
+{
+    list-style-type: none;
+    margin-right: 10px;
+    color: #02b875;
+}
+
+.ul-paginate li a
+{
+    color: #02b875;
+}
+
+.ul-paginate li:hover
+{
+    text-decoration: underline;
+}
+
+.separation
+{
+    color: black;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.green
+{
+    color: #02b875;
+}
+
+.hidden
+{
+    display: none;
+}
+
+body
+{
+    font-family: 'Oxygen Mono', monospace;
+    background-color: #FAFAFA;
+}
+
+header
+{
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 3px 2px -2px rgba(0,0,0,.15);
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.09);
+}
+
+header > div
+{
+    width: 960px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo_t
+{
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+#logo
+{
+    width: 64px;
+    height: 64px;
+    margin-right: 10px;
+    background: url('../images/william_blog.png');
+    background-size: cover;
+}
+
+.horizon
+{
+    display: flex;
+    align-items: center;
+}
+
+#guillaume.user_photo
+{
+    background: url('../images/user/guillaume.jpg');
+    margin-left: 10px;
+}
+
+.user_photo
+{
+    width: 32px;
+    height: 32px;
+    margin: 0 10px 0 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h2
+{
+    color: rgba(0, 0, 0, .75);
+}
+
+.thumbnail
+{
+    width: 100%;
+    background-color: rgba(40, 44, 52, 1);
+    display: flex;
+    justify-content: center;
+}
+
+.contener
+{
+    width: 960px;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+main
+{
+    flex: 9;
+    padding-right: 5px;
+    box-sizing: border-box;
+}
+
+main h1
+{
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.article
+{
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 4px rgba(0,0,0,0.04);
+    border: 1px solid rgba(0,0,0,.09);
+}
+
+.tete
+{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.tete.detail
+{
+    align-items: baseline;
+}
+
+.tete.detail h2
+{
+    margin-left: 15px;
+}
+
+.tete p
+{
+    font-size: 0.875em;
+}
+
+.tete .date
+{
+    font-size: 0.750em;
+    color: rgba(0, 0, 0, 0.44);
+}
+
+.article h3
+{
+    color: #000;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.detail h3
+{
+    margin-left: 50px;
+    font-size: 1.750em;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.auteur
+{
+    text-decoration: underline;
+}
+
+.contenu
+{
+    font-size: 1.125em;
+    color: rgba(0, 0, 0,.9);
+}
+
+.more
+{
+    margin-top: 10px;
+    font-size: 0.750em;
+    color: rgba(0, 0, 0, 0.44)
+}
+
+.more:hover
+{
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.response
+{
+    margin: 0 0 10px 20px;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 0.875em;
+}
+
+nav
+{
+    flex: 3;
+    padding-left: 5px;
+    margin-top: 80px;
+    box-sizing: border-box;
+}
+
+nav .cate
+{
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.5em;
+    color: #02b875;
+    margin-bottom: 10px;
+}
+
+nav .titre
+{
+    width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,.09);
+    margin-bottom: 15px;
+}
+
+nav h3
+{
+    color: rgba(0, 0, 0, 0.44);
+    font-size: 0.875em;
+}
+
+nav .titre:hover h3
+{
+    color: #02b875;
+    cursor: pointer;
+}
+
+nav .content_user
+{
+    width: 100%;
+}
+
+nav .user
+{
+    padding: 5px;
+    margin: 5px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.15);
+    float: left;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 0.875em;
+}
+
+nav .user:hover
+{
+    border: 1px solid rgba(0,0,0,.30);
+}
+
+footer
+{
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 -2px 2px -2px rgba(0,0,0,.15);
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+footer > div
+{
+    width: 960px;
+    margin: auto;
+}
